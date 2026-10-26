@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Samuel E. Martinez Aguilar</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="grid-layout">
+
+    <header class="header">
+        <div class="header-brand">
+            <img src="../src/MyPhoto.jpg" alt="Foto de Samuel Eliseo Martinez Aguilar" class="profile-img">
+            <h1 class="profile-name">Samuel E. Martinez Aguilar</h1>
+        </div>
+        <nav class="header-nav">
+            <a href="../index.html" class="nav-link" data-es="Inicio" data-en="Home">Inicio</a>
+            <a href="projects.html" class="nav-link" data-es="Proyectos" data-en="Projects">Proyectos</a>
+            <a href="about.html" class="nav-link" data-es="Sobre Mí" data-en="About">Sobre Mí</a>
+            <a href="contact.html" class="nav-link active" data-es="Contacto" data-en="Contact">Contacto</a>
+            <button id="lang-btn" class="btn-lang">EN / ES</button>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="section-container">
+            <h2 class="section-title" data-es="Contacto" data-en="Contact">Contacto</h2>
+            <p class="section-desc" data-es="¿Tienes alguna propuesta o duda? Puedes contactarme a través de este formulario o mediante mi GitHub." data-en="Have a project or question? Reach out through this form or check my GitHub.">
+                ¿Tienes alguna propuesta o duda? Puedes contactarme a través de este formulario o mediante mi GitHub.
+            </p>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name" data-es="Nombre" data-en="Name">Nombre</label>
+                    <input type="text" id="name" required placeholder="Tu nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" data-es="Correo Electrónico" data-en="Email">Correo Electrónico</label>
+                    <input type="email" id="email" required placeholder="tu@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message" data-es="Mensaje" data-en="Message">Mensaje</label>
+                    <textarea id="message" rows="5" required placeholder="Escribe tu mensaje..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" data-es="Enviar Mensaje" data-en="Send Message">Enviar Mensaje</button>
+            </form>
+
+            <div class="social-links">
+                <p><strong>GitHub:</strong> <a href="https://github.com/xzDarkzz" target="_blank">github.com/xzDarkzz</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Samuel Eliseo Martinez Aguilar. <span data-es="Todos los derechos reservados." data-en="All rights reserved.">Todos los derechos reservados.</span></p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
